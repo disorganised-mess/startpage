@@ -1,174 +1,260 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<!-- <link rel="icon" href="../../../../favicon.ico"> -->
-		
-		<!-- Bootstrap core CSS -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- <link rel="icon" href="../../../../favicon.ico"> -->
+        
+        <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <title>Startpage</title>
     </head>
-	<body>
+    <body>
         <nav class="navbar sticky-top navbar-dark bg-dark justify-content-center">
-            <a class="navbar-brand" href="#"><!-- Top of page title goes here --></a>
+            <a class="navbar-brand" href="#">Launch to the Interwebs</a>
         </nav>
-		<div class="container-fluid"><br>
+        <div class="container-fluid"><br>
             <!-- This page is a simple startpage with the idea being that you only list links that are visited everyday, since bookmarks can get out of hand.
                 The anticipation is using this with a household for everyone to use. Simple enough on a server, like RPI or stored locally on a computer.
                 Six cards fit nicely on a page. They stack when on a mobile device, like a phone, and scales nicely on as small as 12.5" up to 21.5" screens.
                 All of it should scale up or down dependant on ones needs. -->
-			<div class="row-fluid text-center">
-				<form method="get" action="https://duckduckgo.com/" target="_blank">
+            <div class="row-fluid text-center">
+                <form method="get" action="https://duckduckgo.com/" target="_blank">
                     <input size="20" placeholder="search the web" name="q"><input type="submit" value="Search">
-				</form> 
-			</div><br>
-				<!-- Begin 1st row of links, contained in card-decks within Bootstrap4 -->
-				<div class="row-fluid">
-					<div class="card-deck justify-content-center">
-						<div class="card text-center">
-							<div class="card-header"><!-- Title of card goes here --></div>
-							<div class="card-body">
-								<ul class="list-unstyled">
-									<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-								</ul>
-							</div>
-						</div>
-						<div class="card text-center">
-							<div class="card-header"><!-- Title of card goes here --></div>
-							<div class="card-body">
-								<ul class="list-unstyled">
-									<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-								</ul>
-							</div>
-						</div>
-						<div class="card text-center">
-							<div class="card-header"><!-- Title of card goes here --></div>
-							<div class="card-body">
-								<ul class="list-unstyled">
-									<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-								</ul>
-							</div>
-						</div>
-						<div class="card text-center">
-							<div class="card-header"><!-- Title of card goes here --></div>
-							<div class="card-body">
-								<ul class="list-unstyled">
-									<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-								</ul>
-							</div>
-						</div>
-						<div class="card text-center">
-							<div class="card-header"><!-- Title of card goes here --></div>
-							<div class="card-body">
-								<ul class="list-unstyled">
-									<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-								</ul>
-							</div>
-						</div>
-						<div class="card text-center">
-							<div class="card-header"><!-- Title of card goes here --></div>
-							<div class="card-body">
-								<ul class="list-unstyled">
-									<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-								</ul>
-							</div>
-						</div>
-					</div><br>
+                </form> 
+            </div><br>
+            <!-- Begin 1st row of links, contained in card-decks within Bootstrap4 -->
+            <div class="row-fluid">
+                <div class="card-deck justify-content-center">
+                    <div class="card text-center">
+                        <div class="card-header">Household</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                <li><a href="https://my.cozi.com/homepage/" target="_blank">Cozi</a></li>
+                                <li><a href="https://todoist.com/app?lang=en#start" target="_blank">ToDoist</a></li>
+                                <li><a href="http://www.wxii12.com/weather/closings" target="_blank">Delays &amp; Closings</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header">Shopping</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                <li><a href="https://smile.amazon.com/" target="_blank">Amazon</a></li>
+                                <li><a href="https://www.woot.com/" target="_blank">Woot</a></li>
+                                <li><a href="https://www.kohls.com/" target="_blank">Kohls</a></li>
+                                <li><a href="http://thekrazycouponlady.com" target="_blank">Krazy Coupon Lady</a></li>
+                                <li><a href="http://www.southernsavers.com" target="_blank">Southern Savers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header">Finance</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                <li><a href="https://www.ncsecu.org/" target="_blank">SECU</a></li>
+                                <li><a href="https://www.usaa.com/?akredirect=true" target="_blank">USAA</a></li>
+                                <li><a href="https://my.budgetwise.io/" target="_blank">Budgetwise</a></li>
+                                <li><a href="https://www.reddit.com/r/budgetwise" target="_blank">Budgetwise Support</a></li>
+                                <li><a href="https://app.financier.io" target="_blank">Financier</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header">Taxes</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                <li><a href="https://smartasset.com/taxes/north-carolina-paycheck-calculator" target="_blank">NC Paycheck Calculator</a></li>
+                                <li><a href="https://us.thesalarycalculator.co.uk/" target="_blank">Salary Calculator - USA</a></li>
+                                <li><a href="https://www.irs.gov/individuals/tax-withholding-estimator" target="_blank">Tax Withholding Estimator</a></li>
+                                <li><a href="https://www.vertex42.com/Calculators/paycheck-calculator.html" target="_blank">Paycheck Calculator<small>(they may update for next year</small></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header">Bills</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                <li><a href="https://www.duke-energy.com/my-account/sign-in" target="_blank">Duke Energy</a></li>
+                                <li><a href="https://account.t-mobile.com/oauth2/v1/auth" target="_blank">T-Mobile</a></li>
+                                <li><a href="https://spectrum.net" target="_blank">Spectrum</a></li>
+                                <li><a href="https://www.aaacarolinasinsurancesolutions.com/account/html/#/home" target="_blank">AAA</a></li>
+                                <li><a href="https://run.theservicepro.net/portal/login.aspx?QS=0x51F779BE06D19E304EB46CA4A51CA3882FEC65ADAA3D9ABB51E52BC59C2A50FF" target="_blank">PMI</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header">Credit</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                <li><a href="https://www.capitalone.com/" target="_blank">Capital One</a></li>
+                                <li><a href="https://www.discover.com/" target="_blank">Discover</a></li>
+                                <li><a href="https://www.mysynchrony.com" target="_blank">Care Credit</a></li>
+                                <li><a href="https://www.synchronycredit.com/eSecurity/Login/login.action?clientId=amazon&accountType=plcc&langId=en" target="_blank">Amazon Card</a></li>
+                                <li><a href="https://credit.kohls.com/eCustService/" target="_blank">Kohl's</a></li>
+                                <li><a href="https://lowes.syf.com/eSecurity/Login/login.action?clientId=lowes&accountType=generic&langId=en" target="_blank">Lowe's</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
                 <!-- End 1st row of links -->
                 <!-- Begin 2nd row of links or other stuff -->
-                <div class="row-fluid">
-					<div class="card-deck justify-content-center">
-						<div class="card text-center">
-							<div class="card-header"><!-- Title of card goes here --></div>
-							<div class="card-body">
-								<ul class="list-unstyled">
-									<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-								</ul>
-							</div>
-						</div>
-                        <div class="card text-center">
-							<div class="card-header"><!-- Title of card goes here --></div>
-                            <div class="card-body">
-                                <ul class="list-unstyled">
-                                  	<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card text-center">
-							<div class="card-header"><!-- Title of card goes here --></div>
-							<div class="card-body">
-								<ul class="list-unstyled">
-									<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-								</ul>
-							</div>
-						</div>
-                        <div class="card text-center">
-                            <div class="card-header"><!-- Title of card goes here --></div>
-                            <div class="card-body">
-                                <ul class="list-unstyled">
-                                  	<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card text-center">
-                            <div class="card-header"><!-- Title of card goes here --></div>
-                            <div class="card-body">
-                                <ul class="list-unstyled">
-                                  	<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-                                </ul>
-                            </div>
+            <div class="row-fluid">
+                <div class="card-deck justify-content-center">
+                    <div class="card text-center">
+                        <div class="card-header">News</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                <li><a href="https://www.usatoday.com/news/" target="_blank">USA Today</a></li>
+                                <li><a href="http://www.cnn.com/" target="_blank">CNN</a></li>
+                                <li><a href="http://www.bbc.com/" target="_blank">BBC</a></li>
+                                <li><a href="https://weather.com/weather/today/l/27209:4:US" target="_blank">Weather</a></li>
+                                <li><a href="https://www.npr.org" target="_blank">NPR</a></li>
+                                <li><a href="https://news.google.com" target="_blank">Google News</a></li>
+                            </ul>
                         </div>
                     </div>
-                </div><br>
+                    <div class="card text-center">
+                        <div class="card-header">Social</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                                <li><a href="https://plus.google.com/" target="_blank">Google+</a></li>
+                                <li><a href="#" target="_blank"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header">Cloud</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                <li><a href="https://player.siriusxm.com/home/foryou" target="_blank">SiriusXM Streaming</a></li>
+                                <li><a href="https://app.box.com/files" target="_blank">Box</a></li>
+                                <li><a href="https://dropbox.com/h" target="_blank">Dropbox</a></li>
+                                <li><a href="https://onedrive.live.com/" target="_blank">OneDrive</a></li>
+                                <li><a href="https://druidy.ocloud.de/" target="_blank">NextCloud(Hosted)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header">E-mail</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                <li><a href="https://mail.google.com/" target="_blank">Gmail</a></li>
+                                <li><a href="https://outlook.live.com/" target="_blank">Outlook</a></li>
+                                <li><a href="https://webmail.spectrum.net/" target="_blank">TWC/Spectrum Webmail</a></li>
+                                <li><a href="https://mail.protonmail.com/login" target="_blank">ProtonMail</a></li>
+                                <li><a href="https://shared4.squidix.net:2096/" target="_blank">Squidix Webmail</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header">Software &amp; OS</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                <li><a href="https://freshcode.club/" target="_blank">FreshCode</a></li>
+                                <li><a href="https://appimage.github.io" target="_blank">AppImageHub</a></li>
+                                <li><a href="https://www.reddit.com/r/selfhosted/" target="_blank">r/selfhosted</a></li>
+                                <li><a href="https://slashdot.org/" target="_blank">Slashdot</a></li>
+                                <li><a href="https://github.com/" target="_blank">Github</a></li>
+                                <li><a href="https://gitlab.com" target="_blank">Gitlab</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-header">Learning</div>
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                <li><a href="https://www.khanacademy.org" target="_blank">Khan Academy</a></li>
+                                <li><a href="https://stackskills.com/courses/enrolled" target="_blank">Stackskills</a></li>
+                                <li><a href="https://courses.edx.org/dashboard" target="_blank">edX</a></li>
+                                <li><a href="https://linuxjourney.com" target="_blank">LinuxJourney</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
                 <!-- End 2nd row -->
                 <!-- Begin 3rd row -->
-                <div class="row-fluid">
-					<div class="card-deck justify-content-center">
-						<div class="card text-center">
-							<div class="card-header"><!-- Title of card goes here --></div>
-							<div class="card-body">
-								<ul class="list-unstyled">
-									<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-								</ul>
-							</div>
-						</div>
-						<div class="card text-center">
-							<div class="card-header"><!-- Title of card goes here --></div>
-							<div class="card-body">
-								<ul class="list-unstyled">
-									<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-								</ul>
-							</div>
-						</div>
-						<div class="card text-center">
-							<div class="card-header"><!-- Title of card goes here --></div>
-							<div class="card-body">
-								<ul class="list-unstyled">
-									<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-								</ul>
-							</div>
-						</div>
-						<div class="card text-center">
-							<div class="card-header"><!-- Title of card goes here --></div>
-							<div class="card-body">
-								<ul class="list-unstyled">
-									<!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
-								</ul>
-							</div>
-						</div>
-                    </div>
-            </div>
-		</div>
-		
-		<!-- Bootstrap core JavaScript
-    	================================================== -->
-    	<!-- Placed at the end of the document so the pages load faster -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	</body>
-	
+            <div class="row-fluid">
+                <div class="card-deck justify-content-center">
+                    <div class="card text-center">
+                            <div class="card-header">Linux</div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                    <li><a href="https://www.raspberrypi.org/" target="_blank">RaspberryPi</a></li>
+                                    <li><a href="https://www.raspberrypi.org/magpi/" target="_blank">MagPi</a></li>
+                                    <li><a href="https://www.linuxjournal.com/" target="_blank">Linux Journal</a></li>
+                                    <li><a href="https://www.reddit.com/r/linux/" target="_blank">r/Linux</a></li>
+                                    <li><a href="https://www.reddit.com/r/Kubuntu/" target="_blank">r/Kunbuntu</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    <div class="card text-center">
+                            <div class="card-header">WEEB Test<small>(8)(Model 2B)</small></div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                    <li><a href="http://192.168.2.8/" target="_blank">Work In Progress</a></li>
+                                    <li><a href="http://weeb990.com/" target="_blank">Live Current Site</a></li>
+                                    <li><a href="https://www.zoenetworks.net/clientarea.php?action=productdetails&id=3336" target="_blank">WEEB cPanel via client area</a></li>
+                                    <li><a href="https://web.zoenetworks.net:2096/" target="_blank">WEEB Webmail</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    <div class="card text-center">
+                            <div class="card-header">RPI</div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                    <li><a href="http://192.168.2.7/" target="_blank">Startpage<small>(7)(Model B, 2.0 Mounting Holes)(Stretch)</small></a></li>
+                                    <li><a href="http://192.168.2.9/index.php?page=user:login" target="_blank">QWcrm<small>(9)(Model 2B)(Stretch)</small></a></li>
+                                    <li><a href="http://192.168.2.10/" target="_blank"><small>FrontAccounting in Future(10)(Model 2B)(Buster)</small></a></li>
+                                    <li><a href="https://192.168.2.11/" target="_blank">Freedombox<small>(will change to Raspian_buster(11)(Model 3B)(Stretch)</small></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    <div class="card text-center">
+                            <div class="card-header">Yunohost<small>(49)(3B+)(Stretch)</small></div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                    <li><a href="https://192.168.2.49/yunohost/admin/#/login" target="_blank">Server Administration</a></li>
+                                    <li><a href="https://yunohost.local/yunohost/sso/" target="_blank">User Portal</a></li>
+                                    <li><a href="https://yunohost.local/kanboard/" target="_blank">Kanboard Dashboard</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    <div class="card text-center">
+                            <div class="card-header">Our Stuff</div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <!-- <li><a href="#" target="_blank">??</a></li> --> <!-- Template line, style menu entries in this way -->
+                                    <li><a href="https://shared4.squidix.net:2083/cpsess8099765774/frontend/paper_lantern/index.html?login=1&post_login=47079184580068" target="_blank">Squidix cPanel</a></li>
+                                    <li><a href="https://clients.squidix.com/clientarea.php" target="_blank">Squidix Client Area</a></li>
+                                    <li><a href="https://shared4.squidix.net:2096/" target="_blank">Webmail</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div><br>
+        </div>
+    </body>
 </html>
